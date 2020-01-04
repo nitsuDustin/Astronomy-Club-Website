@@ -1,0 +1,46 @@
+html{
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    height: 100vh;
+}
+td.college{
+    vertical-align: top;
+}
+td.year{
+    vertical-align: top;
+}
+td.month{
+    vertical-align: top;
+}
+td.day{
+    vertical-align: top;
+}
+p.err {
+    color:red;
+}
+.m { 
+    border: 1px solid black 
+}
+select { 
+    width:60px 
+}
+option {
+    padding:5px 0
+}
+button, .submit{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    border-color: #4eb5f1;
+}
+button:hover, .submit:hover{
+    background-color:#4095c6; 
+}
