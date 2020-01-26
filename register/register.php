@@ -7,7 +7,7 @@
 <script src = "register.js" type = "text/javascript"></script>
 </head>
     <body>
-        <a href="Huynh_kau853.html"><button>Back</button></a>
+        <a href="../index.html"><button>Back</button></a>
         <?php
         $username = $_REQUEST["username"];
         $first = str_replace("'", "", strip_tags($_REQUEST["firstname"]));

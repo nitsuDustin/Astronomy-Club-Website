@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
     <body>
-        <a href="Huynh_kau853.html"><button>Back</button></a>
+        <a href="../index.html"><button>Back</button></a>
         <?php
             $uname = $_REQUEST["username"];
             $password = $_REQUEST["password"];
@@ -26,7 +26,7 @@
             if(isset($_COOKIE["username"]) and isset($_COOKIE["password"])) {
                 $_SESSION["username"] = $_COOKIE["username"];
                 $_SESSION["password"] = $_COOKIE["password"];
-                header('Location: main.php');
+                header('Location: ../main.php');
             }
 
             while(($user = db_fetch($users)) != NULL) {
@@ -37,7 +37,7 @@
                         setcookie("username", $uname, time() + (86400 * 7), "/");
                         setcookie("password", $password, time() + (86400 * 7), "/");
                     }
-                    header('Location: main.php');
+                    header('Location: ../main.php');
                     //exit;
                 }
                 else if($uname != "" and $password != "") {

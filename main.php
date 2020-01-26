@@ -10,7 +10,7 @@
 <script src="main.js" type="text/javascript"></script>
 </head>
     <body>
-        <a href="Huynh_kau853.html"><button>Back</button></a>
+        <a href="index.html"><button>Back</button></a>
         <h1>
             The UTSA Astronomy Club
         </h1>
